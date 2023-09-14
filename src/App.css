@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+#myHeader {
+  background-color: #0a58ca;
+  color: whitesmoke;
+  text-align: center;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px rgb(13, 9, 241);
+}
