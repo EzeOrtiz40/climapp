@@ -9,7 +9,7 @@ function Card() {
         (async () => {
             try {
                 const response = await getCountries();
-                setCountries(response);
+                setCountries(response.data);
                 console.log(countries);
             } catch (error) {
                 console.log(error);
@@ -25,8 +25,8 @@ function Card() {
     //     (async () => {
     //         try {
     //             const response = await getCity(options);
-    //             setCiudad(response);
-    //             console.log(response.data);
+    //             setCiudad(response.data);
+    //             console.log(ciudad);
     //         } catch (error) {
     //             console.log(error);
     //         }
@@ -36,22 +36,11 @@ function Card() {
 
 
     return (
-        <div class="col">
-            <div class="card shadow-sm">
-
-                <div class="card-body">
-                    <label >Ingresa un pais{" "}</label>
-                    <select none="">
-                        <option value="Buscar">A</option>
-                    </select>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-body-secondary">9 mins</small>
-                    </div>
-                </div>
+        <div className="card">
+            <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
         </div>
     )

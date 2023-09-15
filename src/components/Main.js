@@ -7,7 +7,7 @@ function Main() {
     return (
         <div className='container'>
             <Card />
-            <Card />
+
         </div>
     )
 }

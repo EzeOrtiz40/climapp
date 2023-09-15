@@ -3,7 +3,8 @@ import { ajax } from "./ajax";
 export const getCountries = async () => {
     const optionsRequest = {
         method: "GET",
-        url: " https://restcountries.com/v3.1/all"
+        url: " https://restcountries.com/v3.1/name/argentina",
+        contentType: "application/json"
     };
     return await ajax(optionsRequest);
 }
