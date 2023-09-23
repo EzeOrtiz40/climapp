@@ -3,7 +3,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Main from './components/Main';
-import kelvinToCelsius from './conversions/Unidades';
+
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h3>{kelvinToCelsius(293)}</h3>
+      <div className='separador'></div>
       <Main />
       <Footer />
     </div>

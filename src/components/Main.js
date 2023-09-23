@@ -1,15 +1,20 @@
 import React from 'react'
-import Card from './Card'
+import Cards from './Cards'
+import CardHead from './CardHead'
+
 
 
 function Main() {
 
     return (
         <div className='container'>
-            <Card />
 
+            <CardHead />
+            <div className='separador'></div>
+            <Cards />
         </div>
     )
 }
 
 export default Main
+

@@ -19,7 +19,7 @@ function Header() {
                     </div>
                 </div>
             </div>
-            <div className="navbar navbar-dark bg-dark shadow-sm">
+            <div className="navbar navbar-dark bg-primary shadow-sm">
                 <div className="container">
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
