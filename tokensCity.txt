@@ -1,3 +1,25 @@
 Generated Token : jbkB0-vGUUVdeSGK68bePXORotC-wDkuMgRMRrCjYx3OdA5jN83e_gZci3KC0AzDKiI
 
 {"auth_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfZW1haWwiOiJkZW9ydGl6NDBAZ21haWwuY29tIiwiYXBpX3Rva2VuIjoiamJrQjAtdkdVVVZkZVNHSzY4YmVQWE9Sb3RDLXdEa3VNZ1JNUnJDall4M09kQTVqTjgzZV9nWmNpM0tDMEF6REtpSSJ9LCJleHAiOjE2OTU1MDM2MDB9.PsboTFL2tbdL4vNw4fgMroV-aPzdds-RnITOdXhDS-s"}
+
+key Api google:
+		AIzaSyBjjtUNv8VSd75w9g3pQQx3yWdQU_4	
+	
+coord	{…}
+weather:	
+   0:	
+    id:	803
+    main:	"Clouds"
+    description:	"broken clouds"
+    icon:	"04n"
+base	"stations"
+main	{…}
+visibility	10000
+wind	{…}
+clouds	{…}
+dt	1695535969
+sys	{…}
+timezone	-10800
+id	7116866
+name	"Villa Mercedes"
+cod	200	

@@ -4,7 +4,6 @@ const Footer = () => {
     const year = new Date().getFullYear();
     const companyName = "Alejo Merelli, Ezequiel Ortiz"
     return (
-
         <footer className="text-body-secondary py-5">
             <div className="container">
                 <p className="float-end mb-1">
@@ -15,5 +14,4 @@ const Footer = () => {
         </footer>
     )
 }
-
 export default Footer

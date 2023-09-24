@@ -1,8 +1,6 @@
 import React from 'react'
 import Card from './Card'
 
-
-
 function Cards() {
     return (
         <div className="container">
@@ -24,5 +22,4 @@ function Cards() {
         </div>
     )
 }
-
 export default Cards
